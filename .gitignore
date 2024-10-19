@@ -17,3 +17,46 @@ htmlcov/
 # Django-specific (media files)
 media/
 static/
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite specific
+.vite/
+.vitepress/
+
+# Yarn integrity file
+.yarn-integrity
+
+# IDE/Editor folders and settings
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Other files to ignore
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
