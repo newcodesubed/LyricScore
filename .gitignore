@@ -1,0 +1,19 @@
+# Django-specific
+*.pyc
+__pycache__/
+.DS_Store
+.idea/
+.vscode/
+.tox/
+.eggs/
+.coverage
+.pytest_cache/
+.mypy_cache/
+coverage.xml
+nosetests.xml
+test-results/
+htmlcov/
+
+# Django-specific (media files)
+media/
+static/
